@@ -22,9 +22,9 @@ export default function About() {
 
         <p className="about-img-text3">
           {" "}
-          Learning is one of my favorite things to do - and being enrolled in
+          Learning is one of my favorite things to do - being enrolled in
           Thinkful's Engineering Bootcamp, and having three months of private
-          mentorship - I am very excited, because I know my learning has just
+          mentorship - I am very excited, because I know my journey has just
           begun.
         </p>
 
