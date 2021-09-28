@@ -1,13 +1,74 @@
+#projects {
+  color: white;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 200;
+  text-align: justify;
+}
+
+h4 {
+  font-size: 26px;
+  font-weight: 200;
+  text-align: justify;
+}
+
 .project-list {
-    color: white;
-    text-decoration: none;
-    font-size: 28px;
-    width: 50%;
+  color: white;
+  text-decoration: none;
+  width: 60%;
 }
 
 .project-link {
-    color: white;
-    text-decoration: none;
-    font-size: 28px;
-    padding: 40px;
+  font-size: 28px;
+  font-weight: 300;
+  text-align: justify;
+  color: white;
+  display: list-item;
+  line-height: 50px;
+  text-decoration: underline;
+}
+
+.project-img1 {
+  position: absolute;
+  top: 97%;
+  left: 65%;
+  width: 25rem;
+  max-height: 26rem;
+}
+
+.project-img2 {
+  position: absolute;
+  top: 160%;
+  left: 65%;
+  width: 25rem;
+  max-height: 30rem;
+}
+
+.project-img3 {
+  position: absolute;
+  top: 202%;
+  left: 65%;
+  width: 25rem;
+  max-height: 30rem;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: white;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
 }

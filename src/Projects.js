@@ -2,6 +2,7 @@ import "./Projects.css";
 import React from "react";
 import restaurant from "./images/restaurant-app.jpg";
 import pomodoro from "./images/pomodoro-timer.jpg";
+import country from "./images/country-info.jpg";
 
 export default function Projects() {
   function RestaurantApp() {
@@ -14,17 +15,11 @@ export default function Projects() {
           restaurant where users can create orders that then appear in a backend
           database.
         </h3>
-        <h3 className="project-list">
+        <h4 className="project-list">
           Languages/Frameworks/Libraries Used: Chai.js, CSS, Express.js, HTML,
           JavaScript, JSX, Knex.js, Mocha, PostgreSQL, React
-        </h3>
-        <a className="project-link" href="https://my-restaurant-app.vercel.app">
-          <img
-            src={restaurant}
-            className="project-img"
-            alt="Luis' Restaurant App"
-          />
-        </a>
+        </h4>
+
         <a className="project-link" href="https://my-restaurant-app.vercel.app">
           Browse Restaurant App
         </a>
@@ -40,6 +35,14 @@ export default function Projects() {
         >
           Browse Backend Repo
         </a>
+        <hr />
+        <a href="https://my-restaurant-app.vercel.app">
+          <img
+            src={restaurant}
+            className="project-img1"
+            alt="Luis' Restaurant App"
+          />
+        </a>
       </>
     );
   }
@@ -54,22 +57,13 @@ export default function Projects() {
           series of 'focus' and 'break' durations in the hopes of improving time
           management.
         </h3>
-        <h3 className="project-list">
+        <h4 className="project-list">
           Languages/Frameworks/Libraries Used: CSS, HTML, JavaScript, JSX, React
-        </h3>
+        </h4>
+
         <a
           className="project-link"
           href="https://pomodoro-timer-project-steel.vercel.app"
-        >
-          <img
-            src={pomodoro}
-            className="project-img"
-            alt="Luis' Pomodoro Timer"
-          />
-        </a>
-        <a
-          className="project-link"
-          href="https://pomodoro-timer-project-steel.vercel.app/"
         >
           Browse Pomodoro Timer
         </a>
@@ -78,6 +72,51 @@ export default function Projects() {
           href="https://github.com/luislopez3/Pomodoro-Timer-Project"
         >
           Browse GitHub Repo
+        </a>
+        <hr />
+        <a href="https://pomodoro-timer-project-steel.vercel.app">
+          <img
+            src={pomodoro}
+            className="project-img2"
+            alt="Luis' Pomodoro Timer"
+          />
+        </a>
+      </>
+    );
+  }
+
+  function CountryInfoApp() {
+    return (
+      <>
+        <h2 className="project-list">Country Info App</h2>
+        <h3 className="project-list">
+          This App was made in the spirit of the Summer Olympic Games. It uses a
+          RESTful API endpoint to access and display data on the various
+          Countries around the world.
+        </h3>
+        <h4 className="project-list">
+          Languages/Frameworks/Libraries Used: Axios.js, CSS, HTML, JavaScript,
+          JSX, React
+        </h4>
+
+        <a
+          className="project-link"
+          href="https://country-info-app-ten.vercel.app"
+        >
+          View Country Info App
+        </a>
+        <a
+          className="project-link"
+          href="https://github.com/luislopez3/CountryInfoApp"
+        >
+          Browse GitHub Repo
+        </a>
+        <a href="https://country-info-app-ten.vercel.app">
+          <img
+            src={country}
+            className="project-img3"
+            alt="Luis' Country Info App"
+          />
         </a>
       </>
     );
@@ -88,6 +127,7 @@ export default function Projects() {
       <h1>Projects</h1>
       {RestaurantApp()}
       {PomodoroTimer()}
+      {CountryInfoApp()}
     </section>
   );
 }
