@@ -35,7 +35,6 @@ export default function Projects() {
         >
           Browse Backend Repo
         </a>
-        <hr />
         <a href="https://my-restaurant-app.vercel.app">
           <img
             src={restaurant}
@@ -43,6 +42,7 @@ export default function Projects() {
             alt="Luis' Restaurant App"
           />
         </a>
+        <hr />
       </>
     );
   }
@@ -73,7 +73,7 @@ export default function Projects() {
         >
           Browse GitHub Repo
         </a>
-        <hr />
+        
         <a href="https://pomodoro-timer-project-steel.vercel.app">
           <img
             src={pomodoro}
@@ -81,6 +81,7 @@ export default function Projects() {
             alt="Luis' Pomodoro Timer"
           />
         </a>
+        <hr />
       </>
     );
   }
@@ -118,6 +119,7 @@ export default function Projects() {
             alt="Luis' Country Info App"
           />
         </a>
+        <hr />
       </>
     );
   }
@@ -128,6 +130,7 @@ export default function Projects() {
       {RestaurantApp()}
       {PomodoroTimer()}
       {CountryInfoApp()}
+      <h2>To be continued...</h2>
     </section>
   );
 }

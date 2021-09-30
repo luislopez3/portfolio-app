@@ -7,20 +7,20 @@ export default function About() {
     <section id="about">
       <header className="about-header">
         <img src={me} className="about-img" alt="Luis on the beach" />
-        <p className="about-img-text1">
+        <p className="about-img-text">
           {" "}
           Hello! My name is Luis, but some of my other titles include: Husband,
           Father, Son, Uncle, and now, Full Stack Developer.
         </p>
 
-        <p className="about-img-text2">
+        <p className="about-img-text">
           {" "}
           For the past 12 years, I worked as a Litigation Paralegal, and many of
           the skills I have developed will most definitely translate to my new
           career as a Software Developer.
         </p>
 
-        <p className="about-img-text3">
+        <p className="about-img-text">
           {" "}
           Learning is one of my favorite things to do - being enrolled in
           Thinkful's Engineering Bootcamp, and having three months of private
@@ -28,13 +28,13 @@ export default function About() {
           begun.
         </p>
 
-        <p className="about-img-text4">
+        <p className="about-img-text">
           When I am not in front of the monitors, I enjoy spending time with my
           wife and toddler, traveling to new places, fly-fishing, camping,
           hunting, and cooking.
         </p>
 
-        <p className="about-img-text5">
+        <p className="about-img-text">
           Thank you for viewing my projects! If you would like to chat, please
           send me an email, or a message via LinkedIn.
         </p>
